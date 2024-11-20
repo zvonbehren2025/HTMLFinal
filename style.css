@@ -1,0 +1,98 @@
+.default {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    border-color: rgb(255, 86, 102);
+    border-width: 10px;
+    border-radius: 9px;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: rgb(114, 161, 229);
+    background: rgb(255, 221, 226);
+    
+}
+
+.alt {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed;
+    border-color: rgb(255, 186, 8);
+    border-width: 5px;
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: rgb(255, 221, 226);
+    background: rgb(114, 161, 229);
+    
+}
+
+#top {
+    position: fixed;
+    top: 0;
+    width: 25%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#pic1 {
+    width: 80%;
+    border-style: dashed;
+    border-color: rgb(255, 186, 8);
+    border-width: 5px;
+    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spoiler {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    border-color: rgb(255, 86, 102);
+    border-width: 10px;
+    border-radius: 9px;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: rgb(255, 221, 226);
+    background: rgb(255, 221, 226);
+}
+#spoiler:hover {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed;
+    border-color: rgb(255, 186, 8);
+    border-width: 5px;
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: rgb(255, 221, 226);
+    background: rgb(114, 161, 229);
+    
+}
+
+#animation {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 100;
+    }
+
+    @keyframes example {
+        25%   {text-align: right;}
+        50%   {text-align: center;}
+        75%   {text-align: left;}
+    }
+
+
+/* 
+Colors:
+(255, 221, 226) light pink
+(255, 186, 8) yellow
+(114, 161, 229) blue
+(255, 86, 102) red
+
+*/
